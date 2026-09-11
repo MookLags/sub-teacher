@@ -35,3 +35,9 @@ body, html {
   flex-direction: row;
   justify-content: space-evenly;
 }
+
+@media screen and (max-width: 800px) {
+  .content {
+    width: 100vw;
+  }
+}
