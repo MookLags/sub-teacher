@@ -1,0 +1,37 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #2f2f2f;
+  background-color: #f6f2e8;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  padding: 18px;
+  width: 600px;
+  background-color: white;
+}
+
+.button {
+  border: 1px solid #2f2f2f;  
+  width: fit-content;
+  padding: 8px;
+  color: black;
+  text-decoration: none;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.button:hover {
+  background-color: #2f2f2f;  
+  color: white;
+}
+
+.row-of-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
