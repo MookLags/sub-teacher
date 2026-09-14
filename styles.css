@@ -44,7 +44,7 @@ body, html {
 }
 
 .break {
-  height: 8rem;
+  height: 40px;
 }
 
 @media screen and (max-width: 800px) {
