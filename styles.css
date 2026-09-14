@@ -36,6 +36,17 @@ body, html {
   justify-content: space-evenly;
 }
 
+.quote {
+  padding: 14px;
+  border-left: 4px solid darkblue;
+  color: #4e4e4e;
+  font-style: italic;
+}
+
+.break {
+  height: 8rem;
+}
+
 @media screen and (max-width: 800px) {
   .content {
     width: 100vw;
